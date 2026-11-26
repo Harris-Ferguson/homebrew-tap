@@ -1,8 +1,8 @@
 class Claudeboard < Formula
   desc "Terminal control panel for Claude Code background sessions"
   homepage "https://github.com/Harris-Ferguson/claudeboard"
-  url "https://github.com/Harris-Ferguson/claudeboard/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "37e4e921352d2dccca6d6f8b41495d0cd8d844094a9786f8a047eda48d7e35da"
+  url "https://github.com/Harris-Ferguson/claudeboard/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "ab804ccbabb66d47f31adbd6f9f4569326d4aa2c5ce9e23314966bf38d79efb9"
   head "https://github.com/Harris-Ferguson/claudeboard.git", branch: "main"
 
   depends_on "go" => :build
